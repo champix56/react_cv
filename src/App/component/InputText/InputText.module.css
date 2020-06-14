@@ -1,0 +1,9 @@
+.InputText {
+    border:none !important;
+    color: skyblue;
+    font-size: 14pt;
+}
+.InputText:focus{
+    outline: none;
+    text-decoration: underline;
+}
