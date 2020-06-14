@@ -1,0 +1,19 @@
+.Button {
+    display: inline-block;
+    width:auto;
+    padding: 3px;
+    margin: 2Px 5px;
+    border:1px solid skyblue;
+    background-color: white;
+    border-radius: 8px;
+    user-select : none;
+    box-shadow: 2px 3px 5px lightgrey;
+}
+.content{
+    background-color: lightskyblue;
+    color: white;
+    font-weight: 900;
+    padding: 2px 8px;
+    border-radius: 8px;
+
+}
