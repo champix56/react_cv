@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+.head{
+  font-size: xx-large;
+  padding:2px 5px;
+  color : grey;
+  font-weight: 900;
+  background-color: rgb(235, 232, 232);
+}
