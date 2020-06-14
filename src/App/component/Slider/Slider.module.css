@@ -1,0 +1,26 @@
+.Slider>div {
+    display: inline-block;
+    width:auto;
+    padding: 5px;
+    /* border:1px solid black; */
+}
+.Slider {
+    display: inline-block;
+    width:auto;
+    padding:2px;
+    border:1px solid lightslategray;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.containerStateOn
+{
+    background-color: lightgreen;
+    color: white;
+    font-weight: 900;
+}
+.containerStateOff
+{
+    background-color: white;
+    color: darkgrey;
+}
