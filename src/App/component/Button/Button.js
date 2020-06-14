@@ -4,7 +4,9 @@ import styles from './Button.module.css';
 
 const Button = (props) => (
   <div className={styles.Button} data-testid="Button">
+  <div className={styles.content}>
     {props.text}
+    </div>
   </div>
 );
 
