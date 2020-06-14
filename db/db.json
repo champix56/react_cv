@@ -1,0 +1,41 @@
+{
+	"images": [
+		{
+			"id": 1,
+			"url": "img/plonge.jpg"
+		},
+		{
+			"id": 2,
+			"url": "img/kid1.jpg"
+		},
+		{
+			"id": 3,
+			"url": "img/futurama1.jpg"
+		},
+		{
+			"id": 4,
+			"url": "img/fry1.jpg"
+		},
+		{
+			"id": 5,
+			"url": "url/farnswoth.jpg"
+		},
+		{
+			"id": 6,
+			"url": "img/trololo.jpg"
+		}
+	],
+	"memes": [
+		{
+			"id": 1,
+			"image_id": 1,
+			"ext": [
+				{
+					"x": 0,
+					"y": 0,
+					"value": "dev react"
+				}
+			]
+		}
+	]
+}
