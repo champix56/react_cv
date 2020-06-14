@@ -5,10 +5,13 @@ import styles from './Slider.module.css';
 class Slider extends Component {
   constructor(props){
     super(props);
-    this.state={checked:true};
+    this.state={checked:props.value};
   }
-  toggle=(evt)=>{console.log(evt,this);
-  this.setState({checked:!this.state.checked});}
+  toggle=(evt)=>{
+      console.log(evt,this);
+      this.setState({checked:!this.state.checked});
+      this.props.onClick(this.state);
+}
   render() {
     return (
        <div className={styles.Slider} data-testid="Slider" onClick={this.toggle}>
@@ -19,8 +22,8 @@ class Slider extends Component {
   }
 }
 
-Slider.propTypes = {};
+Slider.propTypes = {onClick:PropTypes.func.isRequired,value:PropTypes.bool};
 
-Slider.defaultProps = {};
+Slider.defaultProps = {value:true};
 
 export default Slider;
