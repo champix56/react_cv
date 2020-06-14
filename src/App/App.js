@@ -10,10 +10,13 @@ function App(props) {
     valueState=sliderState.checked;
     console.log(valueState);
   }
+  var textchanged=(evt)=>{
+    
+  }
   return (
     <div className="App">Mon App React<br/> 
     <Slider value={valueState} onClick={sliderToggle}/><br/>{valueState.toString()}
-      <InputText></InputText>
+      <InputText onChange={textchanged}></InputText>
       <Button text="Ok"></Button><Button text="Cancel"></Button>
    </div>
  );
