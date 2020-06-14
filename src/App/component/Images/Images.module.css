@@ -1,0 +1,13 @@
+.Images {
+    max-height: 60vh;
+    overflow-y: scroll;
+    padding:10px;
+    background-color: black;
+
+}
+.Images>img{
+    height: calc(0.32 * 60vh);
+    max-width:50%;
+    size:auto;
+    vertical-align: middle;
+}
